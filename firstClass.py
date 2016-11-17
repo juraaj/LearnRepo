@@ -11,6 +11,9 @@ class Point:
     def distance_from_another(self, another):
         return ((self.x - another.x)** 2 + (self.y - another.y) ** 2) ** 0.5
 
+    def print_info(self):
+        print(self.x + ", " + self.y)
+
 
 p = Point()
 
