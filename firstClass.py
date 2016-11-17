@@ -11,3 +11,4 @@ p = Point()
 
 print(str(p.x) + " " + str(p.y))
 print(p._Point__secretAttr)
+print("hello")
