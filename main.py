@@ -16,7 +16,7 @@ print()
 print(product.Product.static_attr)
 print(cp.static_attr)
 
-product.Product.static_attr = "bbbbbbb"
+product.Product.static_attr = "bbbbokokokokokokbbb"
 print()
 print(product.Product.static_attr)
 print(cp.static_attr)
