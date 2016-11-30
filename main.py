@@ -3,8 +3,8 @@ import license
 import product
 
 
-
-cp = concreteProduct.ConcreteProduct()
+#second level branch edit
+p = concreteProduct.ConcreteProduct()
 #cp2 = concreteProduct.ConcreteProduct()
 
 print()
