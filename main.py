@@ -1,4 +1,25 @@
+import concreteProduct
+import license
+import product
 
-numbers = [1,2,3,4,5]
-numbers_2 = [(x**2) for x in numbers]
-print(numbers_2)
+
+
+cp = concreteProduct.ConcreteProduct()
+#cp2 = concreteProduct.ConcreteProduct()
+
+print()
+print(product.Product.static_attr)
+print(cp.static_attr)
+
+cp.static_attr = "aaaaaaa"
+print()
+print(product.Product.static_attr)
+print(cp.static_attr)
+
+product.Product.static_attr = "bbbbbbb"
+print()
+print(product.Product.static_attr)
+print(cp.static_attr)
+
+
+
